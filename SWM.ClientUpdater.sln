@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34825.169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWM.ClientUpdater.Application", "SWM.ClientUpdater.Application\SWM.ClientUpdater.Application.csproj", "{6F00679A-2806-48AE-B1B9-72F6F5001476}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8CB3B85D-3C56-486D-B75E-C19D439810CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executables", "Executables", "{C6599A89-6DE6-433E-914A-FFC92B33528A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4D92B628-DCC8-4978-80C8-478D1850B626}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWM.ClientUpdater.Database", "SWM.ClientUpdater.Database\SWM.ClientUpdater.Database.csproj", "{93E69890-D098-4837-9AAC-F1F744EA4400}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWM.ClientUpdater.OnboardingRequestService", "SWM.ClientUpdater.OnboardingRequestService\SWM.ClientUpdater.OnboardingRequestService.csproj", "{1674ECDC-0505-4198-B837-0967C126388A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWM.ClientUpdater.ExternalServices", "SWM.ClientUpdater.ExternalServices\SWM.ClientUpdater.ExternalServices.csproj", "{6A9EC46A-D3F8-414C-AA7E-E9CD1510A15D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F00679A-2806-48AE-B1B9-72F6F5001476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F00679A-2806-48AE-B1B9-72F6F5001476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F00679A-2806-48AE-B1B9-72F6F5001476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F00679A-2806-48AE-B1B9-72F6F5001476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E69890-D098-4837-9AAC-F1F744EA4400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E69890-D098-4837-9AAC-F1F744EA4400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E69890-D098-4837-9AAC-F1F744EA4400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E69890-D098-4837-9AAC-F1F744EA4400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1674ECDC-0505-4198-B837-0967C126388A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1674ECDC-0505-4198-B837-0967C126388A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1674ECDC-0505-4198-B837-0967C126388A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1674ECDC-0505-4198-B837-0967C126388A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9EC46A-D3F8-414C-AA7E-E9CD1510A15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9EC46A-D3F8-414C-AA7E-E9CD1510A15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9EC46A-D3F8-414C-AA7E-E9CD1510A15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9EC46A-D3F8-414C-AA7E-E9CD1510A15D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F00679A-2806-48AE-B1B9-72F6F5001476} = {8CB3B85D-3C56-486D-B75E-C19D439810CF}
+		{93E69890-D098-4837-9AAC-F1F744EA4400} = {4D92B628-DCC8-4978-80C8-478D1850B626}
+		{1674ECDC-0505-4198-B837-0967C126388A} = {C6599A89-6DE6-433E-914A-FFC92B33528A}
+		{6A9EC46A-D3F8-414C-AA7E-E9CD1510A15D} = {4D92B628-DCC8-4978-80C8-478D1850B626}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FF3D57A-4B12-4F12-B7E8-FF76E1C25B95}
+	EndGlobalSection
+EndGlobal
